@@ -369,7 +369,7 @@ label{
 }
 input, textarea{
     font: 1em sans-serif;
-    width: 70%;
+    width: 65%;
     box-sizing: border-box;
     border: 1px solid #999;
     background-color: #fbf5f3;
