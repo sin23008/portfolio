@@ -283,16 +283,16 @@ hr{
     margin-left: 2vw;
 }
 .topproducts-img-3{
-    width: 30vw;
-    min-width: 400px;
+    width: 40vw;
+    min-width: 300px;
     max-width: 600px;
     float: left;
     margin-right: 2vw;
     margin-bottom: calc(20px - 2vw);
 }
 .topproducts-img-4{
-    width: 30vw;
-    min-width: 400px;
+    width: 40%;
+    min-width: 300px;
     max-width: 600px;
     float: right;
     margin-left: 2vw;
@@ -315,6 +315,16 @@ hr{
 }
 .contact-main{
     display: grid;
+    text-align: center;
+}
+.contact-title{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: top;
+    margin-top: 8vh;
+    font-size: calc(1.5em + 2vw);
+    color: #fbf5f3;
+    justify-self: center;
 }
 .contact-form{
     grid-column: 1/2;
