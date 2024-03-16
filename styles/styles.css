@@ -277,13 +277,13 @@ hr{
 }
 .topproducts-img-2{
     width: 30vw;
-    min-width: 150px;
+    min-width: 350px;
     max-width: 300px;
     float: right;
     margin-left: 2vw;
 }
 .topproducts-img-3{
-    width: 40vw;
+    width: 40%;
     min-width: 300px;
     max-width: 600px;
     float: left;
