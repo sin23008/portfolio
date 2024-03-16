@@ -220,26 +220,16 @@ footer img:hover{
     font-size: 10vw;
     color: #fbf5f3;
 }
-.aboutus-grid{
+.aboutus-content{
     margin: 7vw;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
 }
-.aboutus-grid-p1{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    font-size: 3vw;
+.aboutus-grid-p{
+    font-size: calc(10px + 2vw);
 }
 .aboutus-grid-img{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 25vw;
+    width: calc(50px + 25vw);
+    float: right;
     padding-left: 5vw;
-}
-.aboutus-grid-p2{
-    grid-column: 1/3;
-    font-size: 3vw;
 }
 
 /* =============Top 5 Products============== */
