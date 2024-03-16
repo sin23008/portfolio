@@ -345,7 +345,7 @@ hr{
 }
 form{
     margin: 10vw auto;
-    width: 400px;
+    width: 80vw;
     height: 200px;
     padding: 1em;
     border: 1px solid #ccc;
@@ -369,7 +369,7 @@ label{
 }
 input, textarea{
     font: 1em sans-serif;
-    width: 300px;
+    width: 70%;
     box-sizing: border-box;
     border: 1px solid #999;
     background-color: #fbf5f3;
