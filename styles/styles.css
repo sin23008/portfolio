@@ -30,7 +30,7 @@ header{
 .headernav{
     display: flex;
     justify-content: space-around;
-    font-size: 2vw;
+    font-size:calc(8px + 1.5vw);
 }
 .headernav a{
     color: #fbf5f3;
