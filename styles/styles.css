@@ -172,6 +172,7 @@ footer img:hover{
     grid-row: 1/2;
 }
 .homeSlides.show{
+    max-width: 80vw;
     display: block;
     opacity: 1;
     transform: scale(150%);
