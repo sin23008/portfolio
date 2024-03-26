@@ -179,26 +179,27 @@ footer img:hover{
     transform: scale(1.5);
 }
 .slideshow-display-left{
-    grid-column: 1/2;
-    grid-row: 1/2;
     justify-self: left;
     margin-left: 7vw;
 }.slideshow-display-right{
-    grid-column: 1/2;
-    grid-row: 1/2;
     justify-self: right;
     margin-right: 7vw;
 }
 .slideshow-display-left, .slideshow-display-right{
-    height: 10vh;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    cursor: pointer;
+    padding: 16px;
     background: rgba(51, 38, 29, 0.5);
-    border-top: 2px solid rgba(51, 38, 29, 0);
-    border-left: 2px solid rgba(51, 38, 29, 0);
-    border-bottom: 2px solid rgba(51, 38, 29, 0);
-    border-right: 2px solid rgba(51, 38, 29, 0);
+    border: 2px solid rgba(51, 38, 29, 0);
     color: #fbf5f3;
     transition: .25s;
-    display: block;
+
 }
 .slideshow-display-left:hover, .slideshow-display-right:hover{
     background: rgba(51, 38, 29, 0.75);
