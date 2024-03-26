@@ -67,7 +67,7 @@ footer img{
     transition: 0.5s;
 }
 footer img:hover{
-    transform: scale(150%);
+    transform: scale(1.5);
     transition: 0.5s;
 }
 .social{
@@ -118,7 +118,7 @@ footer img:hover{
     align-items: center;
 }
 .home-grid-cell-1:hover{
-    transform: scale(125%);
+    transform: scale(1.25);
     transition: .5s;
 }
 .home-grid-cell-2{
@@ -129,7 +129,7 @@ footer img:hover{
     align-items: center;
 }
 .home-grid-cell-2:hover{
-    transform: scale(125%);
+    transform: scale(1.25);
     transition: .5s;
 }
 .home-aboutus-grid-img, .home-nav-img-grid-a1{
@@ -176,7 +176,7 @@ footer img:hover{
     max-width: 80vw;
     display: block;
     opacity: 1;
-    transform: scale(150%);
+    transform: scale(1.5);
 }
 .slideshow-display-left{
     grid-column: 1/2;
@@ -197,7 +197,6 @@ footer img:hover{
     border-bottom: 2px solid rgba(51, 38, 29, 0);
     border-right: 2px solid rgba(51, 38, 29, 0);
     color: #fbf5f3;
-    font: "rowdies";
     transition: .25s;
     display: block;
 }
@@ -325,7 +324,6 @@ hr{
 .contact-title{
     grid-column: 1/2;
     grid-row: 1/2;
-    align-self: top;
     margin-top: 8vh;
     font-size: calc(1.5em + 2vw);
     color: #fbf5f3;
@@ -397,5 +395,5 @@ textarea{
     border-bottom: 2px solid #33261d;
     border-right: 2px solid #33261d;
     color: #fbf5f3;
-    font: "rowdies";
+    font-family: "Rowdies";
 }
